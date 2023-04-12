@@ -1,0 +1,112 @@
+{
+    "Products": [
+      {
+        "id": "1",
+        "name": "Awesome Product 1",
+        "price": "28.4",
+        "priceAfterDiscount": "25",
+        "imageName": "product1",
+        "isNew": "TRUE",
+        "ratings": "3.2"
+      },
+      {
+        "id": "2",
+        "name": "Cool Product 2",
+        "price": "63.9",
+        "priceAfterDiscount": "40",
+        "imageName": "product2",
+        "isNew": "FALSE",
+        "ratings": "4.8"
+      },
+      {
+        "id": "3",
+        "name": "Amazing Product 3",
+        "price": "26.4",
+        "priceAfterDiscount": "19",
+        "imageName": "product3",
+        "isNew": "FALSE",
+        "ratings": "2.7"
+      },
+      {
+        "id": "4",
+        "name": "Huge Product 4",
+        "price": "58.1",
+        "priceAfterDiscount": "50",
+        "imageName": "product4",
+        "isNew": "TRUE",
+        "ratings": "4.1"
+      },
+      {
+        "id": "5",
+        "name": "Tiny Product 5",
+        "price": "58.3",
+        "priceAfterDiscount": "48",
+        "imageName": "product5",
+        "isNew": "FALSE",
+        "ratings": "5"
+      },
+      {
+        "id": "6",
+        "name": "Tiny Product 6",
+        "price": "58.3",
+        "priceAfterDiscount": "48",
+        "imageName": "product5",
+        "isNew": "FALSE",
+        "ratings": "5"
+      },{
+        "id": "7",
+        "name": "Amazing Product 3",
+        "price": "26.4",
+        "priceAfterDiscount": "19",
+        "imageName": "product3",
+        "isNew": "FALSE",
+        "ratings": "2.7"
+      },
+      {
+        "id": "8",
+        "name": "Amazing Product 3",
+        "price": "26.4",
+        "priceAfterDiscount": "19",
+        "imageName": "product3",
+        "isNew": "FALSE",
+        "ratings": "2.7"
+      },
+      {
+        "id": "9",
+        "name": "Amazing Product 3",
+        "price": "26.4",
+        "priceAfterDiscount": "19",
+        "imageName": "product3",
+        "isNew": "FALSE",
+        "ratings": "2.7"
+      },
+      {
+        "id": "10",
+        "name": "Cool Product 2",
+        "price": "63.9",
+        "priceAfterDiscount": "40",
+        "imageName": "product2",
+        "isNew": "FALSE",
+        "ratings": "4.8"
+      },
+      {
+        "id": "11",
+        "name": "Cool Product 2",
+        "price": "63.9",
+        "priceAfterDiscount": "40",
+        "imageName": "product2",
+        "isNew": "FALSE",
+        "ratings": "4.8"
+      },
+      {
+        "id": "12",
+        "name": "Cool Product 2",
+        "price": "63.9",
+        "priceAfterDiscount": "40",
+        "imageName": "product2",
+        "isNew": "FALSE",
+        "ratings": "4.8"
+      }
+
+    ]
+  }

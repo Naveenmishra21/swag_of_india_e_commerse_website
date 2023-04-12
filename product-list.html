@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>swag of india</title>
+    <!-- JavaScript Bundle with Popper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="./image/png" href="./images/flavicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/product-list-style.css">
+
+</head>
+
+<body>
+    <header class="sticky-bar" id="myHeader">
+        <nav class="top-navigation">
+            <div class="social-icon">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-youtube" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </div>
+            <div class="search-box-wrapper">
+                <input type="search" id="searchbox" name="searchbox" placeholder="search for products and brands">
+                <img src="./images/search-icon 1.png" alt="search icon">
+            </div>
+            <div class="top-right">
+                <i class="fa fa-phone"></i>
+                <a href="#" id="contact">+9989099989</a>
+                <a href="#">sell on company</a>
+                <a href="#">download app</a>
+
+                <img src="./images/india.png" alt="flag" hight="30px" width="35px" id="flag">
+                <select name="select" id="select1">
+                    <option value="india">india</option>
+                    <option value="usa">USA</option>
+                    <option value="uae">UAE</option>
+                    <option value="canada">canada</option>
+                </select>
+            </div>
+        </nav>
+        <div class="main-navigation">
+            <div class="nav-left">
+                <img class="logo" src="./images/logo.png" alt="main logo">
+                <a href="#">home</a>
+                <a href="#">categories</a>
+                <a href="#">latest</a>
+                <a href="#">blog</a>
+                <a href="#">pages</a>
+                <a href="#">contacts</a>
+            </div>
+            <div class="nav-right">
+              <a href="./cart.html" ><img src="./images/cart.png" hight="35px" width="40px"></a>
+              <a href="./wishlist.html"><img src="./images/wishlist.png" alt="" hight="35px" width="40px"></a>  
+                <button type="button" class="btn1" data-toggle="modal" data-target="#exampleModal">
+                    sign in
+                </button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="imag">
+                            <img src="./images/logo.png" alt="">
+                        </div>
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-toggle="tab" data-target="#nav-home"
+                                type="button" role="tab" aria-controls="nav-home" aria-selected="true">SIGN IN</button>
+                            <button class="nav-link btn" id="nav-profile-tab" data-toggle="tab"
+                                data-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">CREATE ACCOUNT</button>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <!-- input for email -->
+                            <label for="exampleInputEmail1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                            <!-- input for password -->
+                            <label for="exampleInputPassword1">Password:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+
+                            <button class="signyo">SIGN IN</button>
+                            <button class="create">CREATE NEW ACCOUNT</button>
+                            <div class="text-center">
+                                OR LOGIN with:
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-facebook">FACEBOOK</i></button>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-twitter">TWITTER</i></button>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-google">GOOGLE</i></button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <!-- input for username -->
+                            <label for="exampleInputEmail1">USERNAME:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                            <!-- input for email -->
+                            <label for="exampleInputEmail1">E-MAIL ADDRESS:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                            <!-- input for password -->
+                            <label for="exampleInputPassword1">PASSWORD:</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+
+                            <button class="signyo">SIGN IN</button>
+                            <button class="create">CREATE NEW ACCOUNT</button>
+                            <div class="text-center">
+                                OR LOGIN with:
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-facebook">FACEBOOK</i></button>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-twitter">TWITTER</i></button>
+                                <button type="button" class="btn btn-primary">
+                                    <i class="fa fa-google">GOOGLE</i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </header>
+    <main>
+
+        <!-- ======================body-part================= -->
+
+        <!-- =======breadcrumb========= -->
+        <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb brad-nav">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Appliences</a></li>
+                <li class="breadcrumb-item"><a href="#">Fans</a></li>
+            </ol>
+        </nav>
+        <!-- =======breadcrumb end========= -->
+        <section>
+            <nav class="down-nav">
+                <h3>sort by catagories:</h3>
+                  <select name="catagories" id="catg" placeholder="select-by-catagory">
+                    <option value="mens">mens</option>
+                    <option value="womens">womens</option>
+                    <option value="children">childrens</option>`   
+                </select>
+            </nav>
+            <div class="whole-page">
+                <div class="filter">
+                    <h1>FILTERS</h1><br><br>
+                    <h1>CATAGORIES</h1><br>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">KURTAS(88176) </FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">KURTA SETS(88176) </FONT>
+                        </label><br><br><br>
+                    </form>
+                    <h1>BRAND</h1><br>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">ANOK </FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">NYCA </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">ADIDAS</FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">NIKE </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">ZARA </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">LERON</FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">SISSION </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">MIYAE </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">FORT COLLINOUS </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">FIREOX </FONT>
+                        </label><br><BR><br>
+                    </form>
+                    <H1>PRICE</H1><BR>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">RS.299 TO RS.1,000</FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">RS.1,299 TO RS.15,000</FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">RS.1,000 TO RS.20,000</FONT>
+                        </label>
+                        <br><BR>
+                    </form>
+                    <h1>DISCOUNT RANGE</h1><BR>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">BIBA(2003) </FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">CILOB(20036) </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta" name="krta" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">ADIDA(6004)</FONT>
+                        </label>
+                        <br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">NIKU(5002)</FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">HAM(5003) </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">W(2004)</FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">SOPL(8003) </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">FGGD(704) </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">FORT(408) </FONT>
+                        </label><br>
+                        <input type="checkbox" id="kurta1" name="krta1" value="fabric">
+                        <label for="kurta">
+                            <FONT SIZE="-1.5">W(705)</FONT>
+                        </label><br><BR>
+                    </form>
+
+                    <!-- ----------------- -->
+                </div>
+                <div id="productsListArea">
+                 
+                </div>
+
+            </div>
+            <!-- <div id="productsListArea">
+
+            </div> -->
+            <!-- ======================body-part================= -->
+
+
+         <!-- ===========footer images================= -->
+          <div class="row fpto">
+            <div class="col-3  text-center">
+             <img src="./images/fp1.png" alt="">
+             <div class="fp-text">
+                  <h1>100% SECURE PAYMENT</h1>
+                  <font size="-1"><h3> to show you how we do things in order to make your process smooth and secure</h3></font> 
+             </div>
+            </div>
+            <div class="col-3 text-center">
+                <img src="./images/fp2.png" alt="">
+             <div class="fp-text  text-center">
+                  <h1>TRUST PAY</h1>
+                 <font size="-1"><h3> to show you how we do things in order to make your process smooth and secure</h3></font> 
+             </div>
+            </div>
+            <div class="col-3  text-center">
+                <img src="./images/fp3.png" alt="">
+             <div class="fp-text">
+                  <h1>HELP CENTER</h1>
+                  <font size="-1"><h3> to show you how we do things in order to make your process smooth and secure</h3></font> 
+             </div>
+            </div>
+            <div class="col-3  text-center">
+                <img src="./images/fp4.png" alt="">
+                <div class="fp-text">
+                     <h1>SHOP ON THE GO</h1>
+                     <font size="-1"><h3> to show you how we do things in order to make your process smooth and secure</h3></font> 
+                </div> 
+            </div>
+
+          </div>
+
+
+
+
+     <!-- ===========footer images================= -->
+            <!--+++++ the footer area+++++++ -->
+            <footer class="footer-class">
+                <section class="info">
+                    <div>
+                        <h2>Policy info</h2><br>
+                        <a href="#">
+                            <h4>Privecy policy</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Tearms of sale</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Report abuse &takedown policy</h4><br>
+                        </a>
+                    </div>
+                    <div>
+
+                        <h2>Company</h2><br>
+
+                        <a href="#">
+                            <h4>About us</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Carieer</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Blog</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Sitemap</h4><br>
+                        </a>
+                    </div>
+                    <div>
+
+                        <h2>snapdeal busness</h2><br>
+
+                        <a href="#">
+                            <h4>Shopping app</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Sell on company</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Advertise on snapdeal</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Media enqairy</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Be an affiliate</h4><br>
+                        </a>
+                    </div>
+                    <div>
+
+                        <h2>Need help?</h2><br>
+
+                        <a href="#">
+                            <h4>FAQ</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Contact us</h4><br>
+                        </a>
+                        <a href="#">
+                            <h4>Online shopping</h4><br>
+                        </a>
+                    </div>
+                    <div>
+
+                        <h2>SUBSCRIBE</h2>
+
+                        <input type="email" value="enter your e mail address"><button
+                            class="subscribe">Subscribe</button>
+                        <h4>Ragister now to get the updares on promotions and coupons<br> or <a href="#">download
+                                app</a></h4>
+                    </div>
+                </section>
+                <div class="bottom-nav">
+                    <div>
+                        <h3 class="bottom">COPYRIGHT&copy; ALL RIGHTS RESERVED</h3>
+                    </div>
+                    <div class="bottom-nav-p">
+                        <p><i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer end     -->
+            <!-- scroll button -->
+            <a id="scrollup" onclick="topFunction()" id="myBtn" title="Go to top">
+                <img src="./images/arrow-up.png" alt="" class="scroll-button">
+            </a>
+            <!-- -------end of scroll button---------- -->
+            <!-- js and other importent links -->
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+                crossorigin="anonymous"></script>
+            <script type="text/javascript" src="./js/script.js"></script>
+            <script type="text/javascript" src="./js/product.service.js"></script>
+            <script type="text/javascript" src="./js/cart.js"></script>
+            <script type="text/javascript" src="./js/wishlist.js"></script>
+            <script type="text/javascript" src="./js/new.js"></script>
+
+</body>
+
+</html>

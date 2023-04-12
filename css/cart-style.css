@@ -1,0 +1,352 @@
+@import url('./reset.css');
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+body {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: flex;
+    margin-right: 15px;
+    float: right;
+}
+
+#header-top {
+    color: orange;
+}
+
+ .top-navigation {
+    background-color: orange;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-box-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px 30px 8px 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.social-icon {
+    padding-left: 50px;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.top-right {
+    position: relative;
+    justify-content:space-between;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.top-right a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+#flag{
+    position: absolute;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+ 
+ .top-right select{
+  background-color: orange;
+  margin-left: 70px;
+  margin-top: 5px;
+  
+
+}
+#searchbox {
+    border: none;
+}
+.sign-in{
+  padding-left: 70px;
+  padding-right: 100px;
+
+}
+.sign-in button{
+  border: none;
+  background-color: orange;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border-radius: 50px;
+
+}
+.logo{
+  padding-left: 100px;
+}
+.main-navigation{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 5%;
+}
+.nav-left,.nav-right{
+     display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right: 3%;
+}
+.nav-right{
+    margin-right: 10%;
+    justify-content:space-between;
+}
+
+.nav-right .btn1{
+    position: relative;
+    margin-left: 10px;
+    background-color: orange;
+    border-radius: 50px;
+    width:120px;
+    padding:10px;
+    color:white
+   
+}
+.nav-left a{
+    text-decoration: none;
+    padding-left: 10%;
+    width:110%;
+}
+ .main-navigation .nav-right button .btn1{
+    background-color: orange;
+    padding: 10%;
+    border-radius: 25px;
+    width: 100px;
+}
+.sticky-bar{
+    left:0;
+    margin: auto;
+    position: sticky;
+    top:0;
+    width: 100%;
+    box-shadow: 0 -8px 15px black;
+    z-index: 9999;
+    background: white;
+}
+
+/* ============================header end======================== */
+
+/* =======================body======================= */
+
+.nav{
+    position: relative;
+    margin-left:4rem ;
+    width: 60%;
+}
+.nav-r{
+    position: relative;
+    margin-left: 45rem;
+}
+ .main-row .left-side{
+    position: relative;
+    margin-left: 2rem;
+    width: 95%;
+    margin-top: 5px;
+    border: 2px solid linen;
+}
+.main-row .left-side .imag img{
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 2px solid linen;
+}
+.main-row .left-side .text1{
+   position: relative;
+   margin-top: 15px;
+   margin-left: 5px;
+   margin-bottom: 10px;
+}
+.main-row .left-side .text2{
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 295px;
+}
+.colum{
+    position: relative;
+    width: 20%;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+.card-header .btn{
+    position: relative;
+    border: 2px solid orange;
+    border-radius: 8px;
+    width: 85px;
+    height: 38px;
+    color: orange;
+    margin-top: 5px;
+}
+.main-row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.main-row .right-side{
+    position: relative;
+   width: 40%;
+   
+}
+.right-side .right-col{
+    position: relative;
+    border: 2px solid linen;
+    width: 95%;
+}
+ .big-btn .butn{
+    position: relative;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 5px;
+    width: 210%;
+    margin-top: 10px;
+ }
+.apply-bn .bn{
+    position: relative;
+   color: orange;
+    border-radius: 8px;
+    
+}
+
+/* select tag */
+.select2 .sl{
+    border-radius: 10px;
+    background-color: gray;
+}
+.lastr{
+    position: relative;
+   margin-left: 2rem;
+   border: 2px solid linen;
+   width: 95%;
+
+}
+.cl .c1{
+    position: relative;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.cl1 .c2{
+    position: relative;
+    border-radius: 5px;
+    width: 170px;
+}
+
+
+/* ------------------- */
+#cart-qty{
+    position: relative;
+    bottom:20px;
+ left: 145px;
+}
+#decrese{
+    position: relative;
+    bottom:38px;
+    left: 205px;
+}
+
+/* ------------------------ */
+
+/* =======================body end======================= */
+
+
+/* footer part */
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.subscribe{
+    position: relative;
+    margin-left: 2px;
+    height: 3rem;
+    width:8rem;
+   background-color:black;
+   border-radius:8px;
+   color: white;
+}
+.bottom-nav{
+    display: flex;
+}
+.bottom-nav-p{
+ padding-left: 70%;
+ padding-top: 10px; 
+ justify-content:space-evenly
+} 
+.footer-class{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-class a{
+    text-decoration: none;
+}
+/* scroll up button  */
+#scrollup img{
+    position: relative;
+    height: 40px;
+    width: 45px;
+    font-size: 50px;
+    left: 88rem;
+    cursor: pointer;
+}
+/* codeing for the sign in pop up */
+.modal-header .imag{
+    position: relative;
+    margin-left:125px;
+}
+.nav .btn{
+    margin-left: 175px;
+}
+ .tab-content{
+    padding-top: 20px;
+}
+.tab-content .signyo{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tab-content .create{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+ }
+/* ---------2nd side -----  */
+.tab-pane{
+    padding-top: 20px;
+}
+.tab-pane .signyo{
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tab-pane .create{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.clourd{
+    color: rgb(255, 238, 0);
+}

@@ -1,0 +1,382 @@
+@import url('./reset.css');
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap);
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: flex;
+    margin-right: 15px;
+    float: right;
+}
+
+#header-top {
+    color: orange;
+}
+
+.top-navigation {
+    background-color: orange;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-box-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 8px 30px 8px 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.social-icon {
+    padding-left: 50px;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.top-right {
+    position: relative;
+    justify-content: space-between;
+    padding-left: 100px;
+    width: 50%;
+}
+
+.top-right a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+#flag {
+    position: absolute;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+
+.top-right select {
+    background-color: orange;
+    margin-left: 70px;
+    margin-top: 5px;
+
+
+}
+
+#searchbox {
+    border: none;
+}
+
+.sign-in {
+    padding-left: 70px;
+    padding-right: 100px;
+
+}
+
+.sign-in button {
+    border: none;
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 50px;
+
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3%;
+}
+
+.nav-right {
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.nav-right .btn1 {
+    position: relative;
+    margin-left: 6px;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    height: 35px;
+    width: 120px;
+
+}
+
+.nav-left a {
+    text-decoration: none;
+    padding-left: 10%;
+    width: 110%;
+}
+
+.main-navigation .nav-right button .btn1 {
+    background-color: orange;
+    padding: 10%;
+    border-radius: 25px;
+    width: 100px;
+}
+
+.sticky-bar {
+    left: 0;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 -8px 15px black;
+    z-index: 9999;
+    background: white;
+}
+
+/* ///////////header end//////////// */
+/* ++++++++++body start+++++++++ */
+.main-div {
+    position: relative;
+}
+
+.my-account {
+    position: relative;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    justify-content: space-evenly;
+
+
+}
+
+.my-account .orders {
+    position: relative;
+    margin-top: 2px;
+}
+
+.my-account .accounts {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.my-account .payment {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.my-account .ma {
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+
+}
+
+ .my-wishlist {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+    top: 4rem;
+    width: 90%;
+}
+
+.my-wishlist .right-wish {
+    position: relative;
+    left: 15rem;
+}
+
+#myorders .prod3-img {
+    border: 2px solid linen;
+    margin-top: 15px;
+    margin-bottom: 15PX;
+}
+
+#myorders .txt {
+    position: relative;
+    margin-top: 15px;
+    left: 5px;
+}
+
+#myorders .select {
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.bytns1 {
+    border-radius: 8px;
+    height: 24px;
+    width: 125px;
+    background-color: orange;
+    color: black;
+}
+
+.bytns2 {
+    border-radius: 8px;
+    height: 24px;
+    width: 162px;
+    background-color: orange;
+    color: black;
+}
+
+#myorders .second-row {
+   
+    position: relative;
+    border: 2px solid linen;
+    top: 2rem;
+    right: 6rem;
+    width: 95%;
+    height: 30%;
+    margin-bottom: 20px;
+}
+
+.first-row {
+    position: relative;
+}
+
+#orders .RS {
+    position: relative;
+    margin-top: 15px;
+    LEFT: 25PX;
+    margin-bottom: 15PX;
+}
+
+.DELIVORY {
+    position: relative;
+    LEFT: 55PX;
+    margin-top: 15px;
+    margin-bottom: 15PX;
+}
+
+/* ++++++++++body end+++++++++ */
+
+
+.botm-text {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 6rem;
+}
+
+/* footer part */
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.subscribe {
+    position: relative;
+    margin-left: 2px;
+    height: 3rem;
+    width: 8rem;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+}
+
+.bottom-nav {
+    display: flex;
+}
+
+.bottom-nav-p {
+    padding-left: 70%;
+    padding-top: 95px;
+    justify-content: space-evenly;
+}
+
+.footer-class a {
+    text-decoration: none;
+}
+
+/* scroll up button  */
+#scrollup img {
+    background-color: blue;
+    height: 40px;
+    width: 45px;
+    font-size: 50px;
+    position: relative;
+    left: 88rem;
+    bottom: 130px;
+    cursor: pointer;
+}
+
+/* codeing for the sign in pop up */
+.modal-header .imag {
+    position: relative;
+    margin-left: 125px;
+}
+
+.nav .btn {
+    margin-left: 175px;
+}
+
+.tab-content {
+    padding-top: 20px;
+}
+
+.tab-content .signyo {
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tab-content .create {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+/* ---------2nd side -----  */
+.tab-pane {
+    padding-top: 20px;
+}
+
+.tab-pane .signyo {
+    width: 100%;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tab-pane .create {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.script {
+    display: none;
+}
+
+/* +++++++++++++sign in pop up+++++ */
